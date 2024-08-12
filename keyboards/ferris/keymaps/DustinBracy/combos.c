@@ -7,10 +7,10 @@ enum myCombos {
 };
 uint16_t COMBO_LEN = COMBO_LENGTH;
 
-const uint16_t PROGMEM esc_combo[] = {LT(2,KC_BSPC), LCTL_T(KC_DEL), COMBO_END};
-const uint16_t PROGMEM tab_combo[] = {LT(3,KC_SPC), LT(1,KC_ENT), COMBO_END};
+const uint16_t PROGMEM esc_combo[] = {KC_A, KC_Q, COMBO_END};
+const uint16_t PROGMEM tab_combo[] = {KC_A, LSFT_T(KC_Z), COMBO_END};
 
 combo_t key_combos[] = {
     [ESC_COMBO] = COMBO(esc_combo, KC_ESC),
-    [TAB_COMBO] = COMBO(tab_combo, KC_TAB), 
+    [TAB_COMBO] = COMBO(tab_combo, KC_TAB)
 };

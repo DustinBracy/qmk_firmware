@@ -64,8 +64,8 @@
             "KC_UP",
             "KC_RGHT",
             "KC_LSFT",
-            "KC_NO",
-            "KC_NO",
+            "KC_SCLN",
+            "KC_COLN",
             "KC_END",
             "KC_PGDN",
             "KC_GT",
@@ -102,15 +102,15 @@
             "KC_LSFT",
             "KC_LALT",
             "KC_GRV",
+            "KC_SCLN",
             "KC_COLN",
-            "KC_NO",
             "KC_PAST",
             "KC_1",
             "KC_2",
             "KC_3",
             "KC_PENT",
-            "KC_BSPC",
             "KC_NO",
+            "KC_DEL",
             "KC_PDOT",
             "KC_0"
         ],
@@ -145,10 +145,10 @@
             "KC_F8",
             "KC_F9",
             "KC_F12",
-            "KC_NO",
+            "KC_BSPC",
             "KC_DEL",
             "KC_ENT",
-            "KC_SPC"
+            "KC_NO"
         ]
     ],
     "author": "@DustinBracy"
